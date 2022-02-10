@@ -1,6 +1,6 @@
 # Pokédex-Projekt
 
-**Die Demo ist hier zu finden: www.kuecheneisen.de**
+**Die Demo ist hier zu finden: https://spielwiese.kuecheneisen.de/**
 
 Beim Pokédex-Projekt handelt es sich um eine Enzyklopädie in Form einer responsive Web-App, in der Nutzer Informationen zu [Pokémon](https://www.youtube.com/watch?v=s2119-wrJo0) und deren Eigenschaften nachschlagen können.
 
