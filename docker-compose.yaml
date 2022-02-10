@@ -1,0 +1,26 @@
+version: '3'
+
+services:
+  webserver:
+    image: phpstorm/php-apache
+    ports:
+      - 8080:80
+    volumes:
+      - ./:/var/www/html
+
+  db:
+    image: library/mysql:5.7.33
+    volumes:
+      - ./data:/var/lib/mysql
+    ports:
+      - 3306:3306
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: qwertz
+      MYSQL_USER: qwertz
+      MYSQL_PASSWORD: qwertz
+
+  phpmyadmin:
+    image: phpmyadmin
+    ports:
+      - 8081:80

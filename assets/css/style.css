@@ -1,0 +1,181 @@
+body {
+    padding-top: 74px;
+}
+
+.row-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* Pokemon card design */
+.pokemon-card {
+    width: 330px;
+}
+
+.card{
+    overflow: hidden;
+    height: 250px;
+    border: 0px;
+}
+
+.pokemon-header {
+    color: white;
+    z-index: 1;
+}
+
+span {
+    width: fit-content;
+    padding: 3px 7px;
+    margin: 3px;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.pokeball-image {
+    filter: invert(90%) opacity(20%);
+    position: absolute;
+    right: -10px;
+    bottom: -10px;
+    width: 200px;
+}
+
+.pokemon-image {
+    position: relative;
+    width: 130px;
+    margin-bottom: 10px;
+    margin-left: calc(100% - 160px);
+}
+
+
+/* Properties of the Pokemon typ cards. */
+.Feuer {
+    background: #f7786b;
+}
+
+.Pflanze {
+    background: #94c9ad;
+}
+
+.Wasser {
+    background: #79a8c7;
+}
+
+.Kaefer {
+    background: #a6b747;
+}
+
+.Normal {
+    background: #938f6d;
+}
+
+.Gift {
+    background: #a868b5;
+}
+
+.Elektro {
+    background: #f1d300;
+}
+
+.Flug {
+    background: #c8dbe7;
+}
+
+.Boden {
+    background: #956318;
+}
+
+.Kampf {
+    background: #8b3854;
+}
+
+.Psycho {
+    background: #d95484;
+}
+
+.Gestein {
+    background: #683e08;
+}
+
+.Eis {
+    background: #61c0ff;
+}
+
+.Drache {
+    background: #2a2970;
+}
+
+.Geist {
+    background: #4b4b83;
+}
+
+
+/* Properties of the Pokemon typ tags. */
+.tag-Pflanze {
+    background-color: #63a742;
+    }
+
+.tag-Gift {
+    background-color: #b55aa5;
+    }
+
+.tag-Feuer {
+    background-color: #f75231;
+    }
+
+.tag-Wasser {
+    background-color: #399cff;
+    }
+
+.tag-Kaefer {
+    background-color: #808d15;
+    }
+
+.tag-Flug {
+    background-color: #9cadf7;
+    }    
+
+.tag-Normal {
+    background-color: #ada594;
+    } 
+
+.tag-Elektro {
+    background-color: #ffc631;
+    } 
+
+.tag-Boden {
+    background-color: #d6b55a;
+    } 
+
+.tag-Fee {
+    background-color: #e6a5e6;
+    } 
+
+.tag-Kampf {
+    background-color: #a55239;
+    } 
+
+.tag-Psycho {
+    background-color: #ff73a5;
+    } 
+
+.tag-Gestein {
+    background-color: #9b884c;
+    } 
+
+.tag-Stahl {
+    background-color: #adadc6;
+    } 
+
+.tag-Eis {
+    background-color: #5acee7;
+    }
+
+.tag-Geist {
+    background-color: #6363b5;
+    }
+    
+.tag-Drache {
+    background-color: #7b63e7;
+    }
