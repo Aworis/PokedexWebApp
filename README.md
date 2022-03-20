@@ -17,7 +17,7 @@ Zukünftig soll noch eine genauere Ansicht der Pokémon per Klick und eine Bilde
 
 - Um den Pokédex lokal auf dem Rechner zu betreiben, muss [Docker Desktop](https://docs.docker.com/desktop/) und [Docker Compose](https://docs.docker.com/compose/install/) installiert sein.
 
-- Der Quellcode zum Pokédex kann hier heruntergeladen werden: www.beispiel.de
+- Der Quellcode zum Pokédex kann hier heruntergeladen werden: https://github.com/Aworis/PokedexWebApp
 
 - Sobald Docker Desktop gestartet wurde, navigiere mit dem Kommando `cd` im Terminal in den Dateipfad, wo der Quellcode des Pokédex' abgelegt wurde.
 	Beispiel: `cd C:\Users\PC\Desktop\**dein-Pfad**`
